@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/douban/douban",
+    "pages/search/search",
+    "pages/douban_CS/douban_CS",
+    "pages/index/index",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,42 @@
+/* pages/weather/weather.wxss */
+.title{
+  color:rosybrown;
+  width:100%;
+  text-align: center;
+}
+
+.content{
+  display:flex;
+  flex-wrap: wrap;
+  padding-top:37rpx;
+}
+.content .movie{
+  width:33.3%;
+  padding: 0 27rpx;
+  box-sizing: border-box;
+  border: 1px solid brown;
+}
+.content .movie>image{
+  width: 200rpx;
+  height:270rpx;
+  margin-bottom: 20rpx;
+}
+.content .movie>text{
+  font-size: 23rpx;
+}
+.content .movie>.score{
+  display:flex;
+  align-items: center;
+  margin-top: 20rpx;
+
+}
+.content .movie >.score >image{
+  width:18rpx;
+  height: 18rpx;
+}
+.content .movie >.score >text{
+  font-size:26rpx;
+}
+
+
+

@@ -1,0 +1,33 @@
+.movie-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 37rpx;
+   min-height: 1600rpx; 
+}
+.movie-container .item{
+  width: 33.3333%;
+  padding: 0 27rpx;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.movie-container .item >image{
+  width:200rpx;
+  height: 270rpx;
+  margin-bottom: 20rpx;
+}
+.movie-container .item >text{
+  font-size:23rpx;
+}
+.movie-container .item >.score{
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.movie-container .item >.score >image{
+  width:18rpx;
+  height: 18rpx;
+}
+.movie-container .item >.score >text{
+  font-size:26rpx;
+}

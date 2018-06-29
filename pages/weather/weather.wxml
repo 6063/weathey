@@ -1,0 +1,15 @@
+<button class="title" bindtap="getDatas">豆瓣电影</button>
+<view class="content">
+  <view class="movie" wx:for="{{movieData}}">
+    <image src="{{item.images.small}}"></image>
+    <text>{{item.title}}</text>
+    <view class="score">
+
+        <block wx:for="{{item.stars}}" wx:for-item="i">
+          <image wx:if="{{i}}" src="/img/star.png"></image>
+          <image wx:else src="/img/none-star.png"></image>
+        </block>
+        <text>{{item.rating.average}}</text>
+    </view>
+  </view>
+</view>
